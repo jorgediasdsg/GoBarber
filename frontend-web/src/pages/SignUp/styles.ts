@@ -1,13 +1,12 @@
 import styled from 'styled-components';
-import signUpBackgound from '../../assets/sign-up-background.png';
 import { shade } from 'polished';
+import signUpBackgound from '../../assets/sign-up-background.png';
 
 export const Container = styled.div`
     height: 100vh;
     display: flex;
     align-items: stretch;
 `;
-
 
 export const Content = styled.div`
     display: flex;
@@ -34,13 +33,13 @@ export const Content = styled.div`
             text-decoration: none;
             transition: color 0.2s;
 
-            &:hover{
-                color: ${shade(0.2, '#f4ede8')}
+            &:hover {
+                color: ${shade(0.2, '#f4ede8')};
             }
         }
     }
     > a {
-        color: #F4EDE8;
+        color: #f4ede8;
         display: flex;
         align-items: center;
         margin-top: 24px;
@@ -53,7 +52,7 @@ export const Content = styled.div`
         svg {
             margin-right: 16px;
         }
-        }
+    }
 `;
 export const Background = styled.div`
     flex: 1;
